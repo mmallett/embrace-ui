@@ -1,0 +1,93 @@
+
+/*
+dark          #397060
+medium dark   #5AB096
+medium        #7AF0CC
+light         #80FDD7
+*/
+
+body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.top-nav{
+  padding-left: 60px;
+  padding-right: 60px;
+
+  background-color: #5AB096;
+}
+.top-nav h1{
+  color: white;
+
+  margin: 0px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.top-nav h1 span{
+  color: #7AF0CC;
+}
+
+.content{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 57px;
+  padding-left: 400px;
+}
+
+.content .side-nav{
+  background-color: #7AF0CC;
+  position: absolute;
+  top: 57px;
+  bottom: 0px;
+  left: 0px;
+  width: 400px;
+}
+
+.content .main-content{
+  /*width: 100%;*/
+  padding: 40px;
+}
+
+.content .box-container{
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.content .box-container .box{
+  width: 100%;
+  display: inline-block;
+}
+
+.content .box-container .box .box-head{
+  background-color: #7AF0CC;
+  padding: 10px;
+  color: #397060;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1.25em;
+}
+
+.content .box-container .box .box-content{
+  padding: 10px;
+}
+
+.content button{
+  padding: 5px 15px;
+  background-color: white;
+  border: 2px #5AB096 solid;
+  color: #5AB096;
+  display: inline-block;
+  font-size: 1.15em;
+}
+.content button:hover{
+  cursor: pointer;
+  background-color: #5AB096;
+  color: white;
+}
